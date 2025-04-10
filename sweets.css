@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    text-align: center;
+}
+
+.header {
+    background-color:rgb(251, 249, 249);
+    color:rgb(216, 48, 76);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    
+}
+
+.food-container {
+    padding: 20px;
+}
+
+/* Food Gallery (3x2 Grid) */
+.food-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.food-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.food-item img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.food-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Quantity Selector */
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+select {
+    padding: 5px;
+    font-size: 14px;
+    margin: 5px;
+}
+
+/* Buttons */
+.cart-btn, .order-btn {
+    background-color: rgb(216, 48, 76);
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+.cart-btn:hover, .order-btn:hover {
+    background-color: darkred;
+}
+
+/* Back Link */
+.back-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
