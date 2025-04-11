@@ -1,16 +1,13 @@
-
-        body {
+ body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-          
         }
         header {
           display: flex;
             padding: 10px 20px;
             background-color:#fff;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-
         }
       .logo{
         display: flex;
@@ -18,7 +15,6 @@
         margin-right: 300px;
 
       }
-
         .logo-nav{
           display: flex;
           justify-content: space-between;
@@ -27,14 +23,11 @@
           max-width: 1500px;
           margin:auto;
         }
-        
        .logo img{
-        
-            height:60px;
+ height:60px;
 margin-right:0px;
 margin-left:0px ;
  }
-
  .logo span{
   font-size: 20px;
   font-weight: 20px;
@@ -77,13 +70,11 @@ margin-left:0px ;
         gap: 15px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         z-index: 1000; 
-        
          }
-
          .filter-btn {
           padding: 12px 20px;
           border: none;
-          background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient for a modern look */
+          background: linear-gradient(135deg, #ff7e5f, #feb47b);  
           font-size: 18px;
           font-weight: bold;
           cursor: pointer;
@@ -93,20 +84,18 @@ margin-left:0px ;
           height: 40px;
           border-radius: 8px;
           color: white;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
           transition: all 0.3s ease-in-out;
       }
-      
       .filter-btn:hover {
-          transform: scale(1.05); /* Slightly increase size */
-          background: linear-gradient(135deg, #ff6a4d, #fe8a71); /* Darker gradient on hover */
+          transform: scale(1.05);
+          background: linear-gradient(135deg, #ff6a4d, #fe8a71); 
           box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
       }
-
       .cuisines-btn {
         padding: 12px 20px;
         border: none;
-        background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient for a modern look */
+        background: linear-gradient(135deg, #ff7e5f, #feb47b); 
         font-size: 18px;
         font-weight: bold;
         cursor: pointer;
@@ -116,16 +105,14 @@ margin-left:0px ;
         height: 40px;
         border-radius: 8px;
         color: white;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
         transition: all 0.3s ease-in-out;
     }
-    
     .cuisines-btn:hover {
-      transform: scale(1.05); /* Slightly increase size */
-      background: linear-gradient(135deg, #ff6a4d, #fe8a71); /* Darker gradient on hover */
+      transform: scale(1.05); 
+      background: linear-gradient(135deg, #ff6a4d, #fe8a71); 
       box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
   }
-    
        h2{
         margin-bottom: 20px;
         text-align: left;
@@ -137,7 +124,6 @@ margin-left:0px ;
 flex-wrap: wrap;
         padding:20px;
          }
-        
          .item{
           min-width:120px;
           text-align: center;
@@ -149,7 +135,6 @@ flex-wrap: wrap;
         .category-item {
           text-align:center;
             width:150px;
-            
             border-radius: 10px;
          }
          .category-item:hover{
@@ -174,9 +159,6 @@ flex-wrap: wrap;
         }
       .brands {
         margin: 50px;
-        
-
-
       }
       .brands h2 {
         margin-bottom: 50px;
@@ -185,21 +167,18 @@ flex-wrap: wrap;
         display: flex;
         gap: 80px;
         margin-bottom: 60px;
-
       }
       .brands-grid img {
         width: 150px;
         height: 150px;
         object-fit: cover;
         border-radius: 8px;
-
       }
       .container{
         display:grid;
         grid-template-columns: repeat(3,1fr);
         gap:20px;
         max-width: 1200px;
-    
       }
       .card{
         background-color: white;
@@ -208,7 +187,6 @@ flex-wrap: wrap;
         border-radius: 8px;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         width: 420px;
-        
       }
       .card:hover{
         background-color:white;
@@ -221,23 +199,18 @@ flex-wrap: wrap;
         width: 100%;
         height: 270px;
         object-fit: cover;
-
       }
-      
       .card h3 {
         font-size: 18px;
         margin: 8px 0 4px;
         font-weight: bold;
-
     }
-    
     .card p {
         font-size: 14px;
         color: gray;
         margin-right: 200px;
         margin-bottom: 0px;
     }
-    
     .card .rating {
         display: inline-block;
         background-color: #4CAF50;
@@ -251,15 +224,12 @@ flex-wrap: wrap;
 margin-top: 0px;
 border-radius: 10px;
     }
-    
     .card .details {
         display: flex;
         justify-content: space-between;
         margin-top: 5px;
         font-size: 14px;
     }
-    
-    
     .restaurant-card {
         background: #fff;
         padding: 15px;
@@ -267,12 +237,10 @@ border-radius: 10px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         text-align: left;
     }
-    
     .restaurant-card img {
         width: 100%;
         border-radius: 10px;
     }
-    
     .rating {
         color: green;
         font-weight: bold;
@@ -283,22 +251,17 @@ border-radius: 10px;
   color: #666;
   font-size: 18px;
 }
-
 .end-icon {
   width: 200px; 
   opacity: 0.7;
   margin-bottom: 10px;
 }
-
-
-
 .dropdown {
   border: 1px solid #ddd;
   border-radius: 8px;
   margin-bottom: 10px;
   background: white;
 }
-
 .dropdown-btn {
   width: 100%;
   padding: 12px;
@@ -311,21 +274,17 @@ border-radius: 10px;
   justify-content: space-between;
   align-items: center;
 }
-
 .dropdown-content {
   display: none;
   padding: 10px;
   background: #f9f9f9;
   border-top: 1px solid #ddd;
 }
-
-
 footer {
   background-color: #f8f8f8;
   padding: 40px 20px;
   font-family: Arial, sans-serif;
 }
-
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -333,31 +292,26 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .footer-column {
   flex: 1;
   min-width: 200px;
   margin: 10px;
 }
-
 .footer-column h3 {
   font-size: 14px;
   font-weight: bold;
   color: #333;
 }
-
 .footer-column ul {
   list-style: none;
   padding: 0;
 }
-
 .footer-column ul li {
   font-size: 12px;
   color: #777;
   margin: 5px 0;
   cursor: pointer;
 }
-
 .footer-column ul li:hover {
   color: #333;
 }
@@ -371,7 +325,6 @@ footer {
   margin-top: 20px;
   cursor: pointer;
 }
-
 .footer-bottom {
   text-align: center;
   margin-top: 20px;
